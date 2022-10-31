@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-var fs = require('fs');
-var promisifiedReadFile = require('./utils').promisifiedReadFile;
+var fs = require("fs");
+var promisifiedReadFile = require("./utils").promisifiedReadFile;
 
-var filepath = 'demo-poem.txt';
+var filepath = "demo-poem.txt";
 
 // // synchronous
 // console.log('...synchronous...');
